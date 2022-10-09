@@ -8,32 +8,33 @@ html {
 *:after {
     box-sizing: inherit;
 }
-.main-picture img{
+img {
     position: relative;
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 50%;
     text-align: center;
     color: black;
-    background-color;
 }
 
 .logo img {
     border-radius: 100%;
     width: 100px; 
 }
-.title-image {
+.title-image{
     font-size: 3rem;
-    font-family: sans-serif;
+    font-family:fantasy;
     position: absolute;
-    top: 20%;
-    left: 70%;
-    transform: translate(-30%, -50%); 
+    top: 5%;
+    left: 60%;
+    transform: translate(0px, 160px, 0px); 
 }
+
+
 .container  {
     display: flex;
     flex-direction: column;
 }
-.main-navigation {
+.main-navigation{
     background-color: #1c1c21;
     width: 100%;
     display: flex;
@@ -44,7 +45,7 @@ html {
     padding: 0;
 }
 
-@media (min-width: 768px) { 
+@media (max-width: 768px) { 
     
 }
 
@@ -56,5 +57,25 @@ body {
 .menu {
     text-decoration: none; 
     font-size: 30px;
-    color: #bfbfbf;  
+    color: #bfbfbf; 
+}
+
+.about-me {
+    text-align: center;
+    font-size:30px;
+    background-color: #1c1c21;
+    color:#bfbfbf;
+    
+}
+
+.about {
+    border-top: 10rem solid #1c1c21;
+    border-bottom: 5rem solid #1c1c21;
+    margin:0;
+}
+
+.text {
+    text-align: center;
+    margin: 0 50rem 0 50rem;
+    border-bottom: 10rem solid #1c1c21;
 }
