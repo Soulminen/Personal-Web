@@ -1,6 +1,13 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {    
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
 }
 
 *,
@@ -21,46 +28,44 @@ img {
     width: 100px; 
 }
 .title-image{
-    font-size: 3rem;
-    font-family:fantasy;
+    font-size: 4rem;
     position: absolute;
     top: 5%;
     left: 60%;
-    transform: translate(0px, 160px, 0px); 
+    transform: translate(0px, 160px, 0px);
+    color:#9d9dbb; 
 }
 
 
 .container  {
     display: flex;
     flex-direction: column;
+    background: rgb(45,41,41);
+    background: radial-gradient(circle, rgba(45,41,41,0.9828175241157556) 0%, rgba(101,98,99,1) 100%);
+    background-size:cover;
 }
 .main-navigation{
-    background-color: #1c1c21;
+    background-color: #212125;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 100px; 
     margin: 0;
-    padding: 0;
+    padding: 14px;
+    transition: padding 2s; 
 }
 
-@media (max-width: 768px) { 
-    
-}
 
-body {    
-    margin: 0;
-    padding: 0;
-    font-size: 1.6rem;
-}
 .menu {
     text-decoration: none; 
     font-size: 30px;
     color: #bfbfbf; 
+    transition: 0.4s;
 }
 
 .about-me {
+    
     text-align: center;
     font-size:30px;
     background-color: #1c1c21;
@@ -69,13 +74,39 @@ body {
 }
 
 .about {
-    border-top: 10rem solid #1c1c21;
+    border-top: 20rem solid #1c1c21;
     border-bottom: 5rem solid #1c1c21;
     margin:0;
 }
 
 .text {
     text-align: center;
-    margin: 0 50rem 0 50rem;
     border-bottom: 10rem solid #1c1c21;
+    margin: 0 2rem 0 2rem;
+    
 }
+
+
+@media (max-width: 768px) { 
+    
+}
+
+@media (min-width: 1400px) {
+    .text {
+        margin:0 55rem 0 55rem
+    }
+}
+
+a:hover {
+    background-color: #212133f5;
+    color: white;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0.1%;
+  }
+
+
