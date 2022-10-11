@@ -109,4 +109,88 @@ a:hover {
     padding: 10px 0.1%;
   }
 
+.experience{
+    background-color: #262626;
+    border-top: 10rem solid #262626;
+    border-bottom: 10rem solid #262626;
+    margin:0;
+}
+.experience h1 {
+    text-align: center;
+    font-size: 45px;
+    color:#bfbfbf;
+    margin: 10rem;
+}
+.exp-container {
+    padding: 10rem;
 
+}
+.logo {
+    text-align: left;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    padding: 1rem 1em 1rem 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    background: linear-gradient(10deg, rgb(101, 166, 184) 20%, rgb(85, 113, 185) 80%);
+    min-height: 127px;
+    display: flex;
+    font-size: 25px; 
+    align-items: center; 
+}
+
+.logo img {
+    margin-right: 18px;
+}
+
+
+.text-container {
+    color: #bfbfbf;
+    background-color: #242424;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.text-container ul {
+    margin: 20px 0;
+}
+
+.background-grey {
+    background: radial-gradient(circle, rgb(56, 72, 87) 0%, rgb(30, 39, 47) 70%);   
+}
+
+.strengths h1 {
+    text-align: center;
+    font-size: 45px;
+    color:#bfbfbf;
+    margin: 0;
+    
+}
+
+.strengths div {
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    height: 35vw;
+    max-height: 250px;
+    font-weight: 600;
+    width: 44%;
+    float: left;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 30%) 0px 15px 20px -15px, rgb(0 0 0 / 30%) 0px 55px 50px -35px;
+}
+
+
+.first-strength {
+    background: linear-gradient(45deg, rgb(151, 38, 49) 0%, rgb(208, 67, 79) 100%);
+}
+
+.second-strength {
+    background: linear-gradient(45deg, rgb(67, 111, 157) 0%, rgb(92, 150, 209) 100%);
+}
+.three-strength{
+    background: linear-gradient(45deg, rgb(211, 161, 80) 0%, rgb(102, 75, 0) 100%);
+}
