@@ -13,3 +13,4 @@ function myFunction() {
         mainNavigation.classList.remove("sticky");
     }
   }
+
