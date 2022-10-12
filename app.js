@@ -38,3 +38,5 @@ function myFunction() {
     parallaxContent.style.transform =
         "translate3d(0, " + windowScrolled / 2 + "px, 0)";
   })
+
+  

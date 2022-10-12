@@ -12,19 +12,20 @@
     <link rel="stylesheet" href="css/scroll.css" as="style">
     <link rel="stylesheet" href="css/normalize.css" as="style">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 <body>
     <!-- Start of Section 1 (HOME) -->
-    <header id="header">
-        <section id="home">
-             <div class="container">
-                <img id="ParallaxImage" src="./img/imagen1.jpg" alt="image"> 
-                <div class="title-image" id="ParallaxContent">
+    <header>
+        <section id="home" class="container">
+             <div class="title-image" id="ParallaxContent" style="transform: translate3d(0px, 50px, 0px);">
+                
                   <h1>JOSE YAMIL <br> ESCOBAR JULIAN</h1>
                   <p><strong>Web Developer</strong></p>
-                </div>
               </div>
+              <img id="ParallaxImage" src="img/Picture.png" alt="image"> 
       </section>
     </header>
     <!-- End of Section 1 (HOME) -->
@@ -38,18 +39,19 @@
       <!-- Ending with sticky navegation menu -->
       <section id="welcome-section">
          <div class="about-me">
-            <h1 class="about">About Me</h1>
+            <h1 class="about" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">About Me</h1>
             <br>
             <p class="text">I am an analytical person, with vision and future orientation, with teamwork skills and focused on constant learning. I have decided to reorient my working life completely changing my work in the technical area as a Fiber Optic installer with more than 10 years of experience in the sector.</p>
 
-            <p class="text">I have focused on studying in the recent months  to become a Front End developer, I am passionate about technology and in contact with it every day.</p>
+            <p class="text text2">I have focused on studying in the recent months  to become a Front End developer, I am passionate about technology and in contact with it every day.</p>
          </div>
       </section>
 
       <section id="experience">
         <div class="experience">
-            <h1>Experience</h1>
-                <div class="exp-container">
+            <h1 data-aos="fade-up">Experience</h1>
+                <div class="exp-container" data-aos="fade-right">
                     <div class="logo">
                       <img src="/img/logo-zener.jpg" alt="Logo Vodafone">
                         <div class="head-container">
@@ -69,7 +71,7 @@
                             </ul>
                     </div>
                 </div>
-                <div class="exp-container">
+                <div class="exp-container" data-aos="fade-left">
                     <div class="logo">
                         <img src="/img/logo-inter.jpg" alt="Logo Inter">
                         <div class="head-container">
@@ -93,32 +95,32 @@
 
 
        <div class="background-grey">
-           <h1>Strengths</h1>
+           <h1 data-aos="fade-up">Strengths</h1>
           <div class="strengths inside-divs">
 
             
 
-            <div class="first-strength">
+            <div class="first-strength" data-aos="zoom-in-right">
               <span>Technical skills</span>
             </div>
 
-            <div class="second-strength">
+            <div class="second-strength" data-aos="zoom-in-up">
               <span>Adaptability</span>
             </div>
 
-            <div class="three-strength">
+            <div class="three-strength" data-aos="zoom-in-left">
               <span>Communication skills</span>
             </div>
 
-            <div class="first-strength">
+            <div class="first-strength" data-aos="zoom-in-down">
               <span>A Good Team Player</span>
             </div>
 
-            <div class="second-strength" >
+            <div class="second-strength" data-aos="zoom-out-up">
               <span>A positive attitude</span>
             </div>
 
-            <div class="three-strength" >
+            <div class="three-strength" data-aos="zoom-out-left">
               <span>I am Curious</span>
             </div>
           </div>
@@ -127,58 +129,39 @@
 
 
        <div class="portfolio" style="height: 607px;">
-            <h1>Portfolio</h1>
+            <h1 data-aos="fade-up">Portfolio</h1>
             <p class="text">I have focused on studying in the recent months  to become a Front End developer, I am passionate about technology and in contact with it every day.</p>
           <div class="main-gallery">
-            <div class="gallery-cell is-selected" style="position: absolute; left: 0px; transform:translateX(107.87%);" aria-hidden="true">
+            <div class="gallery-cell" style="position: absolute; left: 0px; transform:translateX(107.87%);" aria-hidden="true">
                 <a href="https://criptomonedasconfetchapi15.netlify.app/" class="_blank">
                   <img src="img/proyecto1.png" alt="project">
-                  <p>
-                    <span>cryptocurrency quoter</span>
-                  </p>
                 </a>
             </div>
             <div class="gallery-cell">
                 <a href="https://criptomonedasconfetchapi15.netlify.app/" class="_blank">
                   <img src="img/proyecto1.png" alt="project">
-                  <p>
-                    <span>cryptocurrency quoter</span>
-                  </p>
                 </a>
             </div>
             <div class="gallery-cell">
                 <a href="https://criptomonedasconfetchapi15.netlify.app/" class="_blank">
                   <img src="img/proyecto1.png" alt="project">
-                  <p>
-                    <span>cryptocurrency quoter</span>
-                  </p>
                 </a>
             </div>
             <div class="gallery-cell">
                 <a href="https://criptomonedasconfetchapi15.netlify.app/" class="_blank">
                   <img src="img/proyecto1.png" alt="project">
-                  <p>
-                    <span>cryptocurrency quoter</span>
-                  </p>
                 </a>
             </div>
             <div class="gallery-cell">
                 <a href="https://criptomonedasconfetchapi15.netlify.app/" class="_blank">
                   <img src="img/proyecto1.png" alt="project">
-                  <p>
-                    <span>cryptocurrency quoter</span>
-                  </p>
                 </a>
             </div>
             <div class="gallery-cell">
                 <a href="https://criptomonedasconfetchapi15.netlify.app/" class="_blank">
                   <img src="img/proyecto1.png" alt="project">
-                  <p>
-                    <span>cryptocurrency quoter</span>
-                  </p>
                 </a>
             </div>
-            
           </div>
         </div>
 
@@ -211,10 +194,17 @@
               </a>
             </div>
         </section>
-
-
       </footer>
 
-  <script src="app.js"></script>
+
+      <script src="app.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+          AOS.init(
+            {
+              duration: 1250,
+            }
+          );
+      </script>
 </body>
 </html>
