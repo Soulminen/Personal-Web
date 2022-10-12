@@ -14,15 +14,7 @@ function myFunction() {
     }
   }
 
-  let flkty = new Flickity( '.main-gallery', {
-    cellAlign: 'left',
-    contain: true,
-    freeScroll: true,
-    contain: true,
-    prevNextButtons: true,
-    pageDots: false,
-    wrapAround: true
-  });
+  
 
 
   let parallaxImage = document.getElementById("ParallaxImage");
