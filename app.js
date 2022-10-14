@@ -32,3 +32,22 @@ function myFunction() {
   })
 
 
+//   window.addEventListener('load', function() {
+//     new Glider(document.querySelector('.main-carousel'), {
+//         slidesToShow: 'auto',
+//         slidesToScroll: 1,
+//         draggable: true,
+//         itemWidth: 700,
+//         exactWidth:true,
+//         dragVelocity: 1,
+//         scrollLock:true,
+//         scrollLockDelay:10,
+//         focusAt:'center',
+//         rewind:true,
+//         duration: 3,
+//         scrollPropagate:true,
+//     });           
+// });
+
+
+
