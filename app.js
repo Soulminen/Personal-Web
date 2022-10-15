@@ -1,6 +1,16 @@
+document.addEventListener('DOMContentLoaded', function(){
+    iniciarAPP();
+ });
+
+ function iniciarAPP() {
+    scrollNav();
+}
+
 window.onscroll = () => {
     myFunction();
 }
+
+// Mantener la navegacion con sticky en la parte superior al hacer scroll
 
 const mainNavigation = document.querySelector('.main-navigation');
 
@@ -13,9 +23,6 @@ function myFunction() {
         mainNavigation.classList.remove("sticky");
     }
   }
-
-  
-
 
   let parallaxImage = document.getElementById("ParallaxImage");
   let parallaxContent = document.getElementById("ParallaxContent");
@@ -32,22 +39,20 @@ function myFunction() {
   })
 
 
-//   window.addEventListener('load', function() {
-//     new Glider(document.querySelector('.main-carousel'), {
-//         slidesToShow: 'auto',
-//         slidesToScroll: 1,
-//         draggable: true,
-//         itemWidth: 700,
-//         exactWidth:true,
-//         dragVelocity: 1,
-//         scrollLock:true,
-//         scrollLockDelay:10,
-//         focusAt:'center',
-//         rewind:true,
-//         duration: 3,
-//         scrollPropagate:true,
-//     });           
-// });
+// haciendo scroll con la navegacion para visitar las secciones
+
+  function scrollNav() {
+    const enlaces = document.querySelectorAll('.main-navigation a');
+
+    enlaces.forEach( enlace => {
+        enlace.addEventListener('click', function(e) {
+            e.preventDefault();
+            const seccionScroll = e.target.attributes.href.value;
+            const seccion = document.querySelector(seccionScroll);
+            seccion.scrollIntoView({ behavior: "smooth"});
+        });
+    });
+}
 
 
 
